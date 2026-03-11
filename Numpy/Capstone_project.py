@@ -7,7 +7,7 @@ import pandas as pd
 # ================================
 # Load the CSV dataset
 # ================================
-df = pd.read_csv('employees_demo_data.csv')
+df = pd.read_csv('F:\Python course\devcastle\Numpy\employees_demo_data.csv')
 
 print("Initial Dataset Shape:", df.shape)
 

@@ -21,10 +21,10 @@ print("Loaded Array:\n", loaded)
 
 
 # Save array
-# np.save("my_array.npy", data)
+# np.save("my_array.py", data)
 
 # Load array
-# loaded = np.load("my_array.npy")
+# loaded = np.load("my_array.py")
 
 # print("Loaded Array:\n", loaded)
 

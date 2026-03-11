@@ -10,12 +10,12 @@ array_1d=np.array([1,2,34,5,6])
 # print(array_1d[2])
 # fancy indexing 
 # print(array_1d[[1,3,4]])
-# filter array boolean masking
-print(array_1d>25) # return true & false
+# =============filter array boolean masking=============
+print(array_1d>25) # ======return true & false========
 # slicing 
-#print(array_1d[0:4]) #index 0 to 4
-#print(array_1d[:4]) #index 0 to 4
-#print(array_1d[::2])  #evry second element
-#print(array_1d[::-1]) # reverse array
+#print(array_1d[0:4]) #============index 0 to 4==========
+#print(array_1d[:4]) #========index 0 to 4===========
+#print(array_1d[::2])  #=========every second element==========
+#print(array_1d[::-1]) #=============reverse array==============
 
 

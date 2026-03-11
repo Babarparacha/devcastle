@@ -6,7 +6,7 @@ lists=np.array([1,2,34,5])
 print(list)
 print(lists)
 
-# 2d array && multi array, data in rows and column
+#========== 2d array && multi array, data in rows and column===================
 array_2d=np.array([[1,2,34,5],[34,5,67,89],[77,55,331,1]])
 print(array_2d)
 array_3d=np.array([[[1,2,34,5],[34,5,67,89],[77,55,331,1]]])
