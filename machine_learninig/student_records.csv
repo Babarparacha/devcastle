@@ -1,0 +1,101 @@
+std_id,first_name,last_name,email,gender,age,department,attendance(%),middle_score,final_score,assignment_avg,quizes_avg,participation_score,project_score,total_score,grade,study_hour_per_week
+STD1000,Ali,Siddiqui,ali.siddiqui000@university.edu,Male,22,Business,68.9,92,51,83.8,94.1,55,87,74,C,36
+STD1001,Ayesha,Khan,ayesha.khan001@university.edu,Female,19,Business,69.3,83,46,78.1,84.4,94,84,73,C,25
+STD1002,Hira,Iqbal,hira.iqbal002@university.edu,Female,22,Computer Science,90.4,55,89,71.1,60.3,63,98,77.2,B,35
+STD1003,Fatima,Ahmed,fatima.ahmed003@university.edu,Female,24,Computer Science,74.4,67,83,63.2,47.4,79,84,73,C,44
+STD1004,Farhan,Ansari,farhan.ansari004@university.edu,Male,19,English,71.7,85,84,94.3,64.9,62,95,82,B,66
+STD1005,Ali,Nawaz,ali.nawaz005@university.edu,Male,21,Mathematics,99.4,59,51,69,69.9,73,60,65.2,C,14
+STD1006,Maham,Sheikh,maham.sheikh006@university.edu,Female,22,Economics,97.5,86,49,80.5,54.4,96,65,71.8,C,22
+STD1007,Danish,Ansari,danish.ansari007@university.edu,Male,22,Economics,87.5,59,88,66.2,87.3,53,64,73.2,C,25
+STD1008,Talha,Chaudhry,talha.chaudhry008@university.edu,Male,24,Mathematics,62.6,81,90,65.7,81,75,91,80,B,44
+STD1009,Zara,Butt,zara.butt009@university.edu,Female,20,Business,89.8,79,61,87.4,68.6,87,75,76,B,34
+STD1010,Hira,Malik,hira.malik010@university.edu,Female,25,Computer Science,90.2,52,54,81.4,88.6,77,88,72.3,C,44
+STD1011,Zain,Ansari,zain.ansari011@university.edu,Male,25,English,70.1,80,45,84,51.3,84,98,71.1,C,65
+STD1012,Mehwish,Nawaz,mehwish.nawaz012@university.edu,Female,23,Computer Science,71.7,55,74,50.2,84.7,96,66,69.4,C,23
+STD1013,Umar,Abbasi,umar.abbasi013@university.edu,Male,19,Economics,71.9,85,77,80.4,53.4,98,60,75.4,B,55
+STD1014,Saad,Chaudhry,saad.chaudhry014@university.edu,Male,25,Computer Science,64.5,68,98,90.3,58.2,65,86,79.9,B,57
+STD1015,Ahmed,Siddiqui,ahmed.siddiqui015@university.edu,Male,25,Computer Science,99.1,79,94,56.3,81.3,85,60,79.3,B,11
+STD1016,Laiba,Mughal,laiba.mughal016@university.edu,Female,24,Business,97.2,93,91,84.5,84.2,75,92,88.8,A,17
+STD1017,Iqra,Abbasi,iqra.abbasi017@university.edu,Female,25,Computer Science,69.9,49,66,51.1,75.5,87,64,64.4,D,23
+STD1018,Ahmed,Siddiqui,ahmed.siddiqui018@university.edu,Male,18,Business,62.7,47,66,53.5,58.1,92,81,65,C,25
+STD1019,Umar,Malik,umar.malik019@university.edu,Male,25,Business,91.4,71,57,54.7,81.2,72,77,69.1,C,26
+STD1020,Iqra,Mughal,iqra.mughal020@university.edu,Female,18,Economics,86.1,86,51,53,85.1,56,65,66.1,C,77
+STD1021,Hassan,Farooq,hassan.farooq021@university.edu,Male,25,Business,76.9,62,74,62.5,95.8,78,85,75,B,66
+STD1022,Ali,Nawaz,ali.nawaz022@university.edu,Male,18,Computer Science,97.1,60,55,70.3,71.5,75,53,65.6,C,44
+STD1023,Zain,Khan,zain.khan023@university.edu,Male,24,Mathematics,97.1,95,74,64.3,83.3,96,100,85,A,34
+STD1024,Zara,Sheikh,zara.sheikh024@university.edu,Female,22,Business,98.7,82,92,77.1,86.1,53,53,78.6,B,55
+STD1025,Laiba,Abbasi,laiba.abbasi025@university.edu,Female,20,Computer Science,98.4,50,56,53.4,48.7,65,75,62,D,43
+STD1026,Farhan,Raza,farhan.raza026@university.edu,Male,21,English,83.8,84,50,71,77.1,83,70,70.6,C,34
+STD1027,Hira,Nawaz,hira.nawaz027@university.edu,Female,23,Business,70.6,53,87,82.3,70.1,98,54,74,C,22
+STD1028,Danish,Raza,danish.raza028@university.edu,Male,19,Computer Science,81.5,77,61,56.6,64.2,54,65,65,C,43
+STD1029,Noor,Malik,noor.malik029@university.edu,Female,25,English,88.1,84,96,82.7,45.4,85,69,81.2,B,54
+STD1030,Farhan,Malik,farhan.malik030@university.edu,Male,22,Computer Science,95.6,92,80,57.8,60.5,63,95,78.6,B,11
+STD1031,Hira,Nawaz,hira.nawaz031@university.edu,Female,22,English,79.5,48,50,81.7,90.6,52,50,61.7,D,12
+STD1032,Mehwish,Malik,mehwish.malik032@university.edu,Female,22,Business,89.6,80,90,71.4,45.5,54,94,78.2,B,56
+STD1033,Umar,Khan,umar.khan033@university.edu,Male,23,English,82.1,72,53,52.1,65.1,100,52,64.4,D,22
+STD1034,Hira,Nawaz,hira.nawaz034@university.edu,Female,21,Economics,64.1,94,80,94.2,67.4,89,97,84.8,B,65
+STD1035,Farhan,Abbasi,farhan.abbasi035@university.edu,Male,21,Business,99,56,71,51.2,85.5,71,100,74.4,C,23
+STD1036,Mehwish,Nawaz,mehwish.nawaz036@university.edu,Female,21,Mathematics,66.4,89,51,69.1,47.1,80,64,65.4,C,24
+STD1037,Kashif,Abbasi,kashif.abbasi037@university.edu,Male,25,Mathematics,72.2,95,59,61.1,81.3,75,71,71.7,C,23
+STD1038,Kinza,Ahmed,kinza.ahmed038@university.edu,Female,22,Mathematics,85.7,70,88,99.1,74.5,51,57,77,B,54
+STD1039,Zara,Raza,zara.raza039@university.edu,Female,22,Computer Science,64.3,72,67,86.4,62.3,88,82,74.3,C,22
+STD1040,Zain,Abbasi,zain.abbasi040@university.edu,Male,21,Mathematics,61.8,72,45,76,89.4,93,96,72.3,C,24
+STD1041,Bilal,Ansari,bilal.ansari041@university.edu,Male,19,Economics,96.8,84,65,83.2,51.9,69,82,75.4,B,24
+STD1042,Maryam,Ansari,maryam.ansari042@university.edu,Female,23,Physics,87.9,80,53,59.6,81.6,74,93,72.5,C,54
+STD1043,Saad,Raza,saad.raza043@university.edu,Male,22,Physics,81.9,45,64,64.3,68.6,87,88,69.3,C,64
+STD1044,Iqra,Iqbal,iqra.iqbal044@university.edu,Female,25,Economics,68.5,75,95,95.1,88.8,60,92,84.8,B,34
+STD1045,Hamza,Farooq,hamza.farooq045@university.edu,Male,23,Computer Science,92.7,93,60,83.6,57.4,62,59,71.5,C,34
+STD1046,Ali,Sheikh,ali.sheikh046@university.edu,Male,25,English,94,49,74,70.7,79.6,62,95,74.3,C,29
+STD1047,Iqra,Ansari,iqra.ansari047@university.edu,Female,21,Business,86.2,45,93,93,93.7,99,77,83.4,B,33
+STD1048,Usman,Qureshi,usman.qureshi048@university.edu,Male,25,Computer Science,82.3,52,74,56.7,70.6,83,85,71.1,C,31
+STD1049,Mehwish,Abbasi,mehwish.abbasi049@university.edu,Female,25,English,92.6,77,72,91.5,75.1,60,97,80.6,B,21
+STD1050,Iqra,Butt,iqra.butt050@university.edu,Female,21,Economics,71.1,94,78,74.2,58.2,78,54,73.6,C,12
+STD1051,Hira,Butt,hira.butt051@university.edu,Female,23,Mathematics,95.7,50,53,57.5,66.1,59,95,65.7,C,21
+STD1052,Ahmed,Ansari,ahmed.ansari052@university.edu,Male,24,Mathematics,81.7,71,48,60.3,68.1,99,87,69.6,C,53
+STD1053,Kashif,Abbasi,kashif.abbasi053@university.edu,Male,24,Physics,60.2,67,64,87.7,91.9,76,84,74.6,C,33
+STD1054,Danish,Sheikh,danish.sheikh054@university.edu,Male,22,Physics,79.4,69,66,83.4,88.9,96,60,74.8,C,55
+STD1055,Areeba,Malik,areeba.malik055@university.edu,Female,18,Physics,83.7,87,46,54.2,68.6,79,61,65,C,44
+STD1056,Hamza,Ansari,hamza.ansari056@university.edu,Male,23,Business,78.2,66,93,94,60.3,76,66,78.6,B,34
+STD1057,Danish,Khan,danish.khan057@university.edu,Male,18,Mathematics,69,49,94,97.9,47.2,51,65,72,C,45
+STD1058,Kashif,Khan,kashif.khan058@university.edu,Male,20,Business,65,87,52,78.2,57,94,66,69.3,C,65
+STD1059,Zara,Raza,zara.raza059@university.edu,Female,19,Business,98.6,51,82,51.3,62.2,93,74,72.3,C,45
+STD1060,Eman,Sheikh,eman.sheikh060@university.edu,Female,19,English,87.6,85,60,55.1,87.5,93,88,76,B,34
+STD1061,Talha,Raza,talha.raza061@university.edu,Male,18,Mathematics,81.3,87,68,53.4,80.6,50,76,70.7,C,22
+STD1062,Fatima,Ansari,fatima.ansari062@university.edu,Female,23,Economics,95.7,74,90,57.6,54.7,83,91,79.2,B,21
+STD1063,Anaya,Qureshi,anaya.qureshi063@university.edu,Female,25,Physics,77.4,91,82,63.4,91.8,55,67,76.1,B,76
+STD1064,Hira,Qureshi,hira.qureshi064@university.edu,Female,25,English,84.4,69,66,51.4,91.8,61,81,70.4,C,22
+STD1065,Bilal,Qureshi,bilal.qureshi065@university.edu,Male,22,Mathematics,71.2,83,89,94,75.6,83,62,81.1,B,53
+STD1066,Hassan,Siddiqui,hassan.siddiqui066@university.edu,Male,24,Physics,82.2,60,89,73.8,84.2,78,100,81.8,B,45
+STD1067,Ahmed,Butt,ahmed.butt067@university.edu,Male,21,Physics,87.7,64,87,79.1,71,83,72,78.2,B,22
+STD1068,Eman,Farooq,eman.farooq068@university.edu,Female,23,Mathematics,88.1,62,64,62.6,51.6,62,70,65.4,C,66
+STD1069,Ibrahim,Farooq,ibrahim.farooq069@university.edu,Male,20,Business,68.7,75,62,86.2,98.7,83,88,77.9,B,45
+STD1070,Fatima,Mughal,fatima.mughal070@university.edu,Female,21,Mathematics,69.1,56,64,50.7,74.4,67,52,60.9,D,22
+STD1071,Umar,Butt,umar.butt071@university.edu,Male,20,Economics,94.7,76,51,93.6,76.6,80,80,75.3,B,77
+STD1072,Maham,Malik,maham.malik072@university.edu,Female,18,Mathematics,97.6,75,52,91.1,67,54,86,72.7,C,33
+STD1073,Usman,Malik,usman.malik073@university.edu,Male,22,Computer Science,99.8,52,80,88.2,78.3,100,89,82.2,B,11
+STD1074,Talha,Farooq,talha.farooq074@university.edu,Male,24,Physics,96.3,64,82,99.5,61.8,89,53,77.7,B,43
+STD1075,Talha,Sheikh,talha.sheikh075@university.edu,Male,21,Mathematics,86.4,55,60,58.7,49.1,50,76,62,D,43
+STD1076,Eman,Raza,eman.raza076@university.edu,Female,25,Mathematics,61.3,63,90,64.1,92.3,54,93,76.3,B,23
+STD1077,Farhan,Butt,farhan.butt077@university.edu,Male,21,Physics,64.6,59,86,57.4,59.6,59,54,65.4,C,34
+STD1078,Usman,Qureshi,usman.qureshi078@university.edu,Male,22,English,90,81,63,72,70.8,69,94,75.8,B,54
+STD1079,Noor,Farooq,noor.farooq079@university.edu,Female,25,Physics,63.2,47,72,86.7,78.2,51,55,65.5,C,45
+STD1080,Ahsan,Mughal,ahsan.mughal080@university.edu,Male,18,Economics,92.9,81,47,88.2,54.6,83,91,73.8,C,2
+STD1081,Areeba,Butt,areeba.butt081@university.edu,Female,20,English,77.4,76,50,73.5,67.5,70,92,70.2,C,33
+STD1082,Kashif,Malik,kashif.malik082@university.edu,Male,23,Physics,87.7,63,87,97.3,89.7,85,52,79.8,B,56
+STD1083,Fatima,Chaudhry,fatima.chaudhry083@university.edu,Female,22,Mathematics,64.6,94,70,93.2,90.4,50,92,79.9,B,21
+STD1084,Sana,Khan,sana.khan084@university.edu,Female,21,English,74.5,93,76,81.3,86.8,63,67,77.6,B,22
+STD1085,Farhan,Butt,farhan.butt085@university.edu,Male,25,Economics,79.4,46,85,80.4,58.2,60,69,70.3,C,11
+STD1086,Umar,Ansari,umar.ansari086@university.edu,Male,19,Business,99.7,52,74,97.4,80.6,59,81,77,B,13
+STD1087,Laiba,Siddiqui,laiba.siddiqui087@university.edu,Female,22,Physics,93.4,75,60,72.8,53,62,88,71.2,C,77
+STD1088,Kashif,Ahmed,kashif.ahmed088@university.edu,Male,22,Physics,73.6,95,77,63.4,45.1,96,69,74.8,C,34
+STD1089,Kinza,Malik,kinza.malik089@university.edu,Female,25,English,79.4,66,80,88.1,65.7,70,62,73.9,C,33
+STD1090,Saad,Ansari,saad.ansari090@university.edu,Male,21,Physics,61.7,92,75,85.3,89.6,74,92,81.7,B,76
+STD1091,Danish,Khan,danish.khan091@university.edu,Male,20,English,98.6,66,51,93.7,69.2,83,79,73.6,C,43
+STD1092,Ibrahim,Malik,ibrahim.malik092@university.edu,Male,24,Economics,98.8,49,75,89.1,59.6,89,94,78.3,B,22
+STD1093,Maryam,Ahmed,maryam.ahmed093@university.edu,Female,23,Economics,94.4,69,65,81.3,93.8,81,84,78.3,B,44
+STD1094,Saad,Ahmed,saad.ahmed094@university.edu,Male,21,Economics,87.4,63,59,87.3,68.9,56,98,73.2,C,16
+STD1095,Danish,Malik,danish.malik095@university.edu,Male,22,Computer Science,61.8,95,48,64.7,65.6,59,65,64.3,D,12
+STD1096,Anaya,Nawaz,anaya.nawaz096@university.edu,Female,20,Business,67,84,69,81,58.2,87,59,72.1,C,12
+STD1097,Danish,Nawaz,danish.nawaz097@university.edu,Male,22,Physics,70.2,45,96,73.3,60.8,84,60,72.2,C,34
+STD1098,Danish,Chaudhry,danish.chaudhry098@university.edu,Male,22,Economics,98.5,89,61,72.8,61.6,74,80,74.9,C,12
+STD1099,Hassan,Ansari,hassan.ansari099@university.edu,Male,23,English,71.8,89,63,51.1,90.7,75,67,70.6,C,45

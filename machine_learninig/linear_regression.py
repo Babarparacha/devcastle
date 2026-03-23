@@ -1,10 +1,15 @@
 """
-linear regression
+Linear regression predicts a continuous value by fitting a straight line between 
+input and output variables.
+ Example: Predicting house prices based on area or predicting weight from height.
+Linear regression is a type of supervised machine-learning algorithm that learns from the 
+labelled datasets and maps the data points with most optimized linear functions which 
+can be used for prediction on new datasets.
 1- find a pattern  in old data
 2-straight liney=m*x+b
 """
 # Import necessary library
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression,LogisticRegression
 import numpy as np
 
 # Example data: X = independent variable(s), y = dependent variable
@@ -26,7 +31,13 @@ model = LinearRegression()
 
 X=[[1],[2],[3],[4],[5]]
 y=[40,50,65,75,90]
+# fit() is used to train the model
+# It learns the relationship between input data (X = study hours)
+# and output data (y = scores)
 model.fit(X, y)
+# predict() is used after training the model
+# It gives a predicted result for new input data
+# Here it predicts the score based on entered study hours
 
 # 3. Predict using the trained model
 # value = 6  # new input value for prediction
@@ -39,7 +50,9 @@ model.fit(X, y)
 # print(f"Slope (m): {model.coef_[0]}")
 # print(f"Intercept (b): {model.intercept_}")
 
-# second example 
+# second example linear regression
+
 hours=float(input("enter how many hours you study:"))
 predicted_hours=model.predict([[hours]])
 print(f" based on your {hours} you have score around {predicted_hours[0]}")
+

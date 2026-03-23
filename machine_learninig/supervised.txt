@@ -1,0 +1,75 @@
+Supervised Learning Algorithms:
+Supervised learning algos are trained on datasets where each example is paired with a 
+target or response variable, known as the label. The goal is to learn a mapping function 
+from input data to the corresponding output labels, enabling the model to make accurate 
+predictions on unseen data.
+
+
+Supervised learning problems are mainly divided into:
+
+Classification: predicting categories
+Regression: predicting continuous values
+Types of Supervised Learning
+1. Linear Regression
+Linear regression predicts a continuous value by fitting a straight line between input and 
+output variables. Example: Predicting house prices based on area or predicting weight from
+ height.
+
+2. Logistic Regression
+Logistic regression is used for classification problems, not regression. 
+Example: Spam detection (spam/not spam), disease prediction (yes/no)
+
+Note: Despite the name, logistic regression is a classification algorithm.
+
+3. Decision Trees
+Decision trees split data into branches based on feature values. 
+Popular Decision Tree Algorithms: ID3, C5. Algorithms, CART
+
+4. Support Vector Machines (SVM)
+SVMs find the best boundary (hyperplane) that separates data points into different classes.
+ Uses support vectors to define decision boundaries. Supports linear and
+  non-linear classification using kernels.
+
+5. k-Nearest Neighbors (k-NN)
+k-NN predicts outcomes based on the closest data points in the training set. 
+Uses distance metrics like Euclidean or Manhattan. Works for both classification andregression.
+
+6. Naive Bayes
+Naive Bayes is based on Bayes’ Theorem and assumes features are independent. 
+Common use case: Text classification, spam filtering.
+
+7. Random Forest
+Random forest is an ensemble technique that combines multiple decision trees.
+ It uses random sampling and feature selection. Reduces overfitting compared to a single tree.
+
+8. Gradient Boosting
+Gradient boosting builds models sequentially, where each model corrects errors made by the 
+previous one. Combines weak learners into a strong model. It works for both classification
+ and regression. Popular Variants:
+->XGBoost: faster, regularized boosting
+->LightGBM: histogram-based, fast for large datasets
+->CatBoost: handles categorical data efficiently
+9. Neural Networks ( Including Multilayer Perceptron)
+Neural Networks learn patterns using layers of connected neurons. 
+It require labeled data. It trained using backpropagation and Used for classification 
+and regression.
+
+->Multilayer Perceptron (MLP): Neural network with input, hidden and output layers
+->Applications: Image classification, spam detection, price prediction.
+
+car brand - bmw,audi,tesla
+fue; type- petrol,diesel,cng
+
+bmw ? petrol?? #system did not understand what it is
+
+LinearR,Knn,decision tree ## work with numercial values not text
+numerical values
+
+bmw-0
+tesla-1
+audi-2
+or
+# this is called labbeled encoding
+bmw-[1,0,0]
+audi-[0,1,0]
+bmw-[0,0,1]

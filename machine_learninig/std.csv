@@ -1,0 +1,11 @@
+hours,score,attendence,internet,sleepHours,passed
+1,35,60,yes,6,yes
+2,40,80,yes,7,yes
+3,45,90,no,8,no
+4,50,65,yes,9,yes
+5,55,70,yes,10,no
+6,60,78,no,5,yes
+7,68,77,yes,12,yes
+8,74,87,yes,8,no
+9,82,66,no,9,yes
+10,90,55,yes,7,yes

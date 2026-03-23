@@ -1,0 +1,54 @@
+Unsupervised Learning Algorithms:
+Unsupervised learning works with unlabeled data to discover hidden patterns or structures
+ without predefined outputs. These are again divided into three main categories based
+  on their purpose: Clustering, Association Rule Mining and Dimensionality Reduction.
+1. Clustering
+Clustering algorithms group data points into clusters based on their similarities or 
+differences. The goal is to identify natural groupings in the data. Clustering algorithms 
+are divided into multiple types based on the methods they use to group data.
+ These types include Centroid-based methods, Distribution-based methods, Connectivity-based 
+ methods and Density-based methods. 
+
+Types of Clustering Methods:
+
+Centroid-Based Methods
+->K-Means: divides data into k clusters
+->K-Means++
+->K-Mode
+->Fuzzy C-Means
+
+Distribution-Based Methods
+->Gaussian mixture models (GMMs)
+->Expectation-Maximization
+->Dirichlet Process Mixture Models (DPMMs)
+
+Connectivity-Based Methods
+->Hierarchical clustering
+->Agglomerative Clustering
+->Divisive clustering
+->Affinity propagation
+
+Density-Based Methods
+->DBSCAN: detects arbitrary-shaped clusters and noise
+->OPTICS
+2. Dimensionality Reduction
+Dimensionality reduction reduces the number of features while keeping important information.
+
+->PCA: maximizes variance
+->t-SNE: visualization of high-dimensional data
+->NMF: works with non-negative data
+->ICA
+->Isomap
+->LLE
+->LSA (for text data)
+->Autoencoders
+3. Association Rule
+Find patterns (called association rules) between items in large datasets, typically in market 
+basket analysis (e.g., finding that people who buy bread often buy butter). It identifies 
+patterns based solely on the frequency of item occurrences and co-occurrences in the dataset.
+
+Popular Algorithms:
+
+->Apriori
+->FP-Growth
+->ECLAT
