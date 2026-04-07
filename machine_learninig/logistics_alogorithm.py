@@ -10,8 +10,8 @@ It uses sigmoid function to convert inputs into a probability value between 0 an
 from sklearn.linear_model import LogisticRegression
 import numpy as np
 
-# Example data: X = independent variable(s), y = dependent variable
-# Make sure X is 2D array (n_samples, n_features)
+# ============Example data: X = independent variable(s), y = dependent ============
+# =========Make sure X is 2D array (n_samples, n_features)===============
 X = np.array([[1], [2], [3], [4], [5]])  # old data (feature)
 y = np.array([2, 4, 6, 8, 10])           # old data (target/output)
 

@@ -8,7 +8,7 @@ can be used for prediction on new datasets.
 1- find a pattern  in old data
 2-straight liney=m*x+b
 """
-# Import necessary library
+# ===========Import necessary library=============
 from sklearn.linear_model import LinearRegression,LogisticRegression
 import numpy as np
 
@@ -17,12 +17,12 @@ import numpy as np
 X = np.array([[1], [2], [3], [4], [5]])  # old data (feature)
 y = np.array([2, 4, 6, 8, 10])           # old data (target/output)
 
-# 1. Create a Linear Regression model
+# ===========1. Create a Linear Regression model===========
 # Linear regression finds a straight line y = m*x + b that fits the data
 model = LinearRegression()
 
-# 2. Fit the model on old data
-# This step calculates the slope (m) and intercept (b) of the best-fit line
+#============ 2. Fit the model on old data=================
+#=========== This step calculates the slope (m) and intercept (b) of the best-fit line=====
 """Import libraries – sklearn for regression, numpy for array handling.
 1-Prepare data – X must be 2D; y can be 1D.
 2-reate and fit model – Finds the best straight line.
@@ -31,22 +31,22 @@ model = LinearRegression()
 
 X=[[1],[2],[3],[4],[5]]
 y=[40,50,65,75,90]
-# fit() is used to train the model
-# It learns the relationship between input data (X = study hours)
-# and output data (y = scores)
+# ===========fit() is used to train the model============
+# ========It learns the relationship between input data (X = study hours)=======
+#========== and output data (y = scores)====================
 model.fit(X, y)
-# predict() is used after training the model
-# It gives a predicted result for new input data
-# Here it predicts the score based on entered study hours
+#============== predict() is used after training the model===========
+#============== It gives a predicted result for new input data=========
+#============= Here it predicts the score based on entered study hours======
 
-# 3. Predict using the trained model
-# value = 6  # new input value for prediction
-# prediction = model.predict([[value]])  # model expects a 2D array
+#============ 3. Predict using the trained model============
+# ==========value = 6  # new input value for prediction===========
+# ============prediction = model.predict([[value]])  # model expects a 2D array========
 
-# # 4. Output the result
+#===========4. Output the result=====================
 # print(f"Predicted value for X={value}: {prediction[0]}")
 
-# # Optional: view the slope (m) and intercept (b)
+#=========== Optional: view the slope (m) and intercept (b)==============
 # print(f"Slope (m): {model.coef_[0]}")
 # print(f"Intercept (b): {model.intercept_}")
 

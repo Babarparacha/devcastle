@@ -300,7 +300,6 @@ housing_data = pd.DataFrame({
 
 # Ensure positive values
 housing_data = housing_data.clip(lower=1)
-
 # Generate realistic prices with built-in relationships
 housing_data['AdjSalePrice'] = (
     -500000 +                                    # Intercept

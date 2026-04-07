@@ -36,10 +36,10 @@ num_2=np.sum((square_ft-x_mean)**2)
 # =========find slope============
 m=num_1/num_2
 print("slope",m)
-#===========find================
+#===========find *****b=y-mx*****================
 b=y_mean-m*x_mean
 print("intercept",b)
-#==========predict price using formula y=mx+b =============
+#==========predict price using formula *****y=mx+b****** =============
 x=3200
 y=m*x+b
 print(y)

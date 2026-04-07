@@ -36,7 +36,7 @@ X=df[['Age','Spending']]
 
 model = KMeans(n_clusters=2, random_state=42, n_init=10)
 
-# Fit the model and predict cluster labels
+#============= Fit the model and predict cluster labels===========
 df['Group'] = model.fit_predict(X)
 print(df)
 plt.figure(figsize=(6,5))

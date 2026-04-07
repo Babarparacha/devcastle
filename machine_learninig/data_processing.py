@@ -8,10 +8,10 @@ from sklearn.model_selection import train_test_split
 #     "city":['lahore','karachi','bahawalnagar'],
 # }
 # df=pd.DataFrame(data)
-# print(df.isnull().sum()) #========sum of missing values
-# drop_none_data=df.dropna() #======drop none data
+# print(df.isnull().sum()) #========sum of missing values=========
+# drop_none_data=df.dropna() #======drop none data===========
 # print(drop_none_data)
-# fill missing values 
+#============= fill missing values ================
 # df['age'].fillna(df['age'].mean(),inplace=True)
 # df['age']=df['age'].round(1)
 # df['salary'].fillna(df['salary'].mean(),inplace=True)
@@ -41,19 +41,19 @@ from sklearn.model_selection import train_test_split
 # ===============Encode 'department' column================
 # df_label['department_Encoded'] = le.fit_transform(df_label['department'])
 
-# =========Print heading==========
+# =========Print heading=============
 # print('\nLabel encoded data')
 
 #========= Show first 5 rows with original and encoded columns=============
 # print(df_label[['name', 'age', 'age_Encoded', 'department', 'department_Encoded']].head())
 
-"""One-Hot Encoding is a technique used in Machine Learning to convert categorical data into 
-binary (0 or 1) columns so algorithms can process it properly.
+"""One-Hot Encoding is a technique used in Machine Learning to convert categorical 
+data into binary (0 or 1) columns so algorithms can process it properly.
  It is commonly used with tools in scikit-learn and pandas.
 One-Hot Encoding creates a separate column for each category and marks the presence of a 
 category with 1 and the absence with 0."""
 
-# Apply One-Hot Encoding on department column
+# =========Apply One-Hot Encoding on department column================
 # df_encoded = pd.get_dummies(df, columns=['department']) #=== return true or false====
 # df_encoded = pd.get_dummies(df, columns=['department'],dtype=int)  #======return 0,1====
 
@@ -75,36 +75,36 @@ df=pd.DataFrame(data)
 1. fit() calculates the mean and standard deviation for each column in the DataFrame 'df'
 2. transform() scales the data: (value - mean) / standard deviation"""
 
-# Print a message to indicate what transformation was done
+# ===========Print a message to indicate what transformation was done===========
 print('standard scaler')
 
-# Convert the scaled data back into a pandas DataFrame for readability and label columns
-# This shows the standardized values of 'studyHours' and 'testScore' after scaling
+# ======Convert the scaled data back into a pandas DataFrame for readability and label columns
+#======== This shows the standardized values of 'studyHours' and 'testScore' after scaling
 # print(pd.DataFrame(standard_scaled, columns=['studyHours', 'testScore']))
 
-# Create an instance of MinMaxScaler
+# ===========Create an instance of MinMaxScaler===============
 min_scaler = MinMaxScaler()
 """MinMaxScaler scales features to a given range (default 0 to 1).
 fit_transform() learns the min and max from the data and scales it.
 Converting back to a DataFrame with column names makes it easy to interpret."""
-# Fit the scaler to the dataframe 'df' and transform the values to a 0-1 range
+# =========Fit the scaler to the dataframe 'df' and transform the values to a 0-1 range=====
 max_scaled = min_scaler.fit_transform(df)
 
-# Print a message to indicate that Min-Max scaling has been applied
+#========== Print a message to indicate that Min-Max scaling has been applied======
 print("MinMax Scaler:")
 
-# Convert the scaled array back to a DataFrame for easier readability and set column names
+#======= Convert the scaled array back to a DataFrame for easier readability and set column names
 print(pd.DataFrame(max_scaled, columns=['studyHours', 'testScore']))
 # 2. Define features (X) and target (y)
 x = df[['studyHours']]   # Feature(s)
 y = df[['testScore']]    # Target variable (corrected typo: 'testScores' -> 'testScore')
 
 
-# 3. Split data into training and testing sets
+#========= 3. Split data into training and testing sets==============
 # Typically, test_size=0.2 means 20% test, 80% train
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.8, random_state=42)
 
-# Print shapes to verify split
+# =========Print shapes to verify split=============
 print("X_train shape:", x_train)
 print("X_test shape:", x_test)
 print("Y_train shape:", y_train)

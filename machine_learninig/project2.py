@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 import numpy as np 
 
 data=pd.read_csv("F:\Python course\devcastle\machine_learninig\student_records.csv")
-#input and output
-X = data[['study_hour_per_week']]   # 2D input required
+#===============input and output============
+X = data[['study_hour_per_week']]   # =========2D input required
 y=data['final_score']
 #train model
 model=LinearRegression()
@@ -27,7 +27,7 @@ mse=mean_squared_error(y,predicted_score)
 rmse=np.sqrt(mse)
 r2=r2_score(y,predicted_score)
 
-#show results
+#================show results====================
 print("mean absolute error(MAE):",round(mae,2))
 print("mean squared error(MAE):",round(mse,2))
 print("root mean squared error(MAE):",round(rmse,2))
@@ -43,7 +43,7 @@ plt.grid(True)
 plt.savefig("F:\Python course\devcastle\machine_learninig\histogram_plot.png")
 plt.show()
 
-## =======scattered plot
+## =======scattered plot================
 plt.figure(figsize=(10, 6))
 plt.scatter(X, y ,label="Actual Data")
 plt.plot(X, predicted_score,color="red",label="predicted score(Regression Line)")
